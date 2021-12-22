@@ -35,4 +35,18 @@
         display: flex;
         align-items: stretch;
     }
+    @media all and (max-width: 1440px) {
+        #app {
+            display: block;
+            padding: 50px 0;
+            height: auto;
+        }
+        #container {
+            width: 90%;
+            margin: auto;
+        }
+        #bottom {
+            flex-direction: column;
+        }
+    }
 </style>

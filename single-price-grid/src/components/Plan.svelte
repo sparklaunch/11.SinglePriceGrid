@@ -58,4 +58,9 @@
     #plan > button:active {
         filter: brightness(1.1);
     }
+    @media all and (max-width: 1440px) {
+        #plan {
+            width: 100%;
+        }
+    }
 </style>

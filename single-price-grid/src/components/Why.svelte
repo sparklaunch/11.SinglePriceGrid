@@ -32,4 +32,9 @@
         opacity: 0.5;
         margin-bottom: 5px;
     }
+    @media all and (max-width: 1440px) {
+        #why {
+            width: 100%;
+        }
+    }
 </style>
