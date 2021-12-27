@@ -4,7 +4,7 @@
     import Why from "./components/Why.svelte";
 </script>
 
-<div id="app">
+<main>
     <div id="container">
         <div id="top">
             <Join />
@@ -14,10 +14,10 @@
             <Why />
         </div>
     </div>
-</div>
+</main>
 
 <style>
-    #app {
+    main {
         height: 100%;
         display: flex;
         justify-content: center;
@@ -36,7 +36,7 @@
         align-items: stretch;
     }
     @media all and (max-width: 1440px) {
-        #app {
+        main {
             display: block;
             padding: 50px 0;
             height: auto;
